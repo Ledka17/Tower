@@ -12,7 +12,11 @@
 
 #include <unistd.h>
 
-void	ft_putchar(char *c);
+int		jp_putchar(char c)
+{
+	write(1, &c, 1);
+	return (0);
+}
 
 int		ksymbol(int size)
 {
