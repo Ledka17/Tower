@@ -1,16 +1,16 @@
 # Tower Sastantua 42
 ### **Compiling**
-The project currently only has the functions for creating the pyramid. To compile, you will need a main. Assuming you have a working libft:
+The project currently only has the functions for creating the pyramid. To compile, you will need a main.
 
 ```
-#include "libft.h"
+#include <stdlib.h>
 
 int	main(int argc, char *argv[])
 {
 	if (argc < 2)
 		return 0;
 
-	sastantua(ft_atoi(argv[1]));
+	sastantua(atoi(argv[1]));
 }
 ```
 
