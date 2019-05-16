@@ -1,5 +1,5 @@
-#Tower Sastantua 42
-###**Compiling**
+# Tower Sastantua 42
+### **Compiling**
 The project currently only has the functions for creating the pyramid. To compile, you will need a main. Assuming you have a working libft:
 
 ```
@@ -14,7 +14,7 @@ int	main(int argc, char *argv[])
 }
 ```
 
-###**Usage**
+### **Usage**
 Compiling this into a sastantua executable, you will get:
 
 ```
